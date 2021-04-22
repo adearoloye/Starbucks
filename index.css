@@ -1,6 +1,11 @@
 #layoutone {
+    background-color: #008248;
+    background-image: url('Images/Green\ Star.png');
+    background-size: cover;
+    height: 800px;
+
     }
-#layoutone #layoutonetext hi {
+#layoutone #layoutonetext h1 {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
