@@ -1,18 +1,32 @@
 
-#header #header1 p {
-    padding: 30px 50px 20px 10%;
-    background: white;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
-}
-#sticky{
-    position: fixed;
-top: 0;
-width: 100%;}
-
 *{margin: 0px;
     padding: 0px;
+}
+header #headerone{
+   width: 30%;
+   display: grid;
+   grid-template-columns: 15% 85%; 
+   gap: 10px 20px;
+   align-items: center;
+   padding: 20px ;
+}
+header #headerone img{
+    width: 100%;
+    display: block;
+    margin-right: 500px;
+ }
+header #headerone ul{
+   text-align: center;
+   display: grid;
+   grid-template-columns: 33.3% 33.3% 33.3%; 
+   align-items: center;
+   padding: 20px ;
+}
+header #headerone ul ol a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #layoutone {
     background-color: #1e3932;
